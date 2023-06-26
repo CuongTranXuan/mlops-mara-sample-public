@@ -1,8 +1,8 @@
-captured_data/**
+!captured_data/**
 !captured_data/.gitkeep
 
-raw_data/**
+!raw_data/**
 !raw_data/.gitkeep
 
-train_data/**
+!train_data/**
 !train_data/.gitkeep
