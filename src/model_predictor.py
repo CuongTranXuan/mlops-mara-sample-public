@@ -97,13 +97,13 @@ class PredictorApi:
         async def root():
             return {"message": "hello"}
 
-        @self.app.post("/phase-1/prob-1/predict")
+        @self.app.post("/phase-2/prob-1/predict")
         async def predict1(data: Data, request: Request):
             self._log_request(request)
             response = self.predictor1.predict(data)
             self._log_response(response)
             return response
-        @self.app.post("/phase-1/prob-2/predict")
+        @self.app.post("/phase-2/prob-2/predict")
         async def predict2(data: Data, request: Request):
             self._log_request(request)
             response = self.predictor2.predict(data)
