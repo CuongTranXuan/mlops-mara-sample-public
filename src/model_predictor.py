@@ -124,13 +124,13 @@ def run(port):
 
 default_config_path = (
     AppPath.MODEL_CONFIG_DIR
-    / ProblemConst.PHASE1
+    / ProblemConst.PHASE2
     / ProblemConst.PROB1
     / "model-1.yaml"
 ).as_posix()
 config_path_prob2 = (
     AppPath.MODEL_CONFIG_DIR
-    / ProblemConst.PHASE1
+    / ProblemConst.PHASE2
     / "prob-2"
     / "model-1.yaml"
 ).as_posix()

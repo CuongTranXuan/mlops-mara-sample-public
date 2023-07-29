@@ -103,7 +103,7 @@ class RawDataProcessor:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--phase-id", type=str, default=ProblemConst.PHASE1)
+    parser.add_argument("--phase-id", type=str, default=ProblemConst.PHASE2)
     parser.add_argument("--prob-id", type=str, default=ProblemConst.PROB1)
     args = parser.parse_args()
 
